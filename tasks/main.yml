@@ -1,0 +1,5 @@
+---
+# Install
+- name: Install Elastic repository
+  ansible.builtin.include_tasks: install.yml
+  tags: ['install']
