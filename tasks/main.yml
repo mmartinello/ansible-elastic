@@ -3,3 +3,8 @@
 - name: Install Elastic repository
   ansible.builtin.include_tasks: install.yml
   tags: ['install']
+
+# Remove
+- name: Uninstall Elastic repository
+  ansible.builtin.include_tasks: uninstall.yml
+  tags: ['remove', 'uninstall', 'purge']

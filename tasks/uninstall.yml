@@ -1,0 +1,4 @@
+---
+- name: Uninstall on Debian
+  ansible.builtin.include_tasks: uninstall-Debian.yml
+  when: ansible_os_family == "Debian"
