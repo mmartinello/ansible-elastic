@@ -7,4 +7,4 @@
 # Remove
 - name: Uninstall Elastic repository
   ansible.builtin.include_tasks: uninstall.yml
-  tags: ['remove', 'uninstall', 'purge']
+  tags: ['never', 'remove', 'uninstall', 'purge']
